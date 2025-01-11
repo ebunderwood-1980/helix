@@ -5,9 +5,11 @@ line-number = "relative"
 mouse = true
 cursorline = true
 cursorcolumn = false
-bufferline = "always"
+bufferline = "multiple"
 auto-pairs = false
 color-modes = true
+auto-completion = false
+rulers = [80]
 
 [editor.file-picker]
 hidden = false
@@ -30,3 +32,8 @@ separator = " | "
 mode.normal = "NORMAL"
 mode.insert = "INSERT"
 mode.select = "SELECT"
+
+[editor.lsp]
+auto-signature-help = false
+display-messages = true
+
