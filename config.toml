@@ -1,0 +1,31 @@
+theme = "ayu_dark"
+
+[editor]
+line-number = "relative"
+mouse = true
+cursorline = true
+cursorcolumn = false
+bufferline = "always"
+auto-pairs = false
+
+[editor.file-picker]
+hidden = false
+
+[editor.cursor-shape]
+insert = "underline"
+normal = "block"
+select = "block"
+
+
+[editor.soft-wrap]
+enable = true
+wrap-indicator = ''
+
+[editor.statusline]
+left = [ "mode", "spinner", "diagnostics" ]
+center = [ "file-name", "separator", "version-control" ]
+right = [ "position", "position-percentage", "total-line-numbers" ]
+separator = " | "
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
