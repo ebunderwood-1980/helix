@@ -9,7 +9,6 @@ bufferline = "multiple"
 auto-pairs = false
 color-modes = true
 auto-completion = false
-rulers = [120]
 true-color = true
 
 [editor.file-picker]
