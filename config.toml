@@ -1,4 +1,4 @@
-theme = "ayu_dark"
+theme = "transparent_gruvbox"
 
 [editor]
 line-number = "relative"
@@ -6,13 +6,26 @@ mouse = true
 cursorline = true
 cursorcolumn = false
 bufferline = "multiple"
-auto-pairs = false
+auto-pairs = true
 color-modes = true
 auto-completion = false
 true-color = true
 
 [editor.file-picker]
 hidden = false
+
+[keys.insert] 
+j = {j = "normal_mode"} 
+
+[keys.normal]
+C-g = [
+    ":write-all",
+    ":new",
+    ":insert-output lazygit",
+    ":buffer-close!",
+    ":redraw",
+    ":reload-all"
+]
 
 [editor.cursor-shape]
 insert = "underline"
@@ -21,7 +34,7 @@ select = "block"
 
 [editor.indent-guides]
 render = true
-character = "|"
+character = "."
 
 [editor.soft-wrap]
 enable = true
