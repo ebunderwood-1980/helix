@@ -10,6 +10,11 @@ auto-pairs = true
 color-modes = true
 auto-completion = false
 true-color = true
+end-of-line-diagnostics = "hint"
+
+[editor.inline-diagnostics]
+cursor-line = "error"
+other-lines = "disable"
 
 [editor.file-picker]
 hidden = false
