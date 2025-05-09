@@ -1,6 +1,6 @@
 [[language]]
 name = "python"
-# auto-format = true
+auto-format = true
 language-servers = [ "pyright", "ruff" ]
 
 [language-server.pyright.config.python.analysis]
@@ -15,3 +15,12 @@ args = ["--ignore", "E501"]
 [language.formatter]
 command = "black"
 args = ["--line-length", "88", "--quiet", "-"]
+
+
+[[language]]
+name = "c"
+auto-format = true
+
+[[language]]
+name = "cpp"
+auto-format = true
