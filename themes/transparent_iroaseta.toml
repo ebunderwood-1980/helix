@@ -1,2 +1,3 @@
-inherits = "iroaseta"
-"ui.background" ={}
+interits = "iroaseta"
+"ui.background" = {bg = "none"}
+
