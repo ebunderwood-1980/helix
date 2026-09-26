@@ -1,4 +1,4 @@
-theme = "transparent_gruvbox"
+theme = "ayu_evolve"
 
 [editor]
 line-number = "relative"
@@ -8,8 +8,9 @@ cursorcolumn = false
 bufferline = "multiple"
 auto-pairs = true
 color-modes = true
-auto-completion = false
+auto-completion = true
 true-color = true
+completion-trigger-len = 2
 
 
 [editor.file-picker]
