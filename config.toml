@@ -28,6 +28,11 @@ C-g = [
     ":redraw",
     ":reload-all"
 ]
+C-b = "no_op"
+
+
+[keys.select]
+C-b = "no_op"
 
 [editor.cursor-shape]
 insert = "underline"
