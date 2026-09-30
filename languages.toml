@@ -64,8 +64,4 @@ command = "ruff"
 args = ["server"]
 
 [language-server.ruff.config.settings.lint]
-<<<<<<< HEAD
-ignore = [ "F401", "I001", "DTZ005" ]
-=======
 ignore = [ "F401", "I001", "DT2005" ]
->>>>>>> 90805a594426d34d79453e0d4a1214dc505ab542

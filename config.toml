@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 theme = "ayu_evolve"
-=======
-theme = "transparent_ayu_evolve"
->>>>>>> 90805a594426d34d79453e0d4a1214dc505ab542
 
 [editor]
 line-number = "relative"
